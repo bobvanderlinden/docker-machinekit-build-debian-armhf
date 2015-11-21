@@ -1,4 +1,4 @@
-FROM armbuild/debian
+FROM armbuild/debian:wheezy
 MAINTAINER Bob van der Linden <bobvanderlinden@gmail.com>
 
 RUN apt-key adv --keyserver hkp://keys.gnupg.net --recv-key 73571BB9 && \
